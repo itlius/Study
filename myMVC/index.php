@@ -17,4 +17,4 @@ define('FRAMEWORK_PATH', str_replace('\\', '/', __DIR__) .DIRECTORY_SEPARATOR.'F
 //打印
 //var_dump( ROOT_PATH );
 include ROOT_PATH . DIRECTORY_SEPARATOR . 'Framework' . DIRECTORY_SEPARATOR .'core'. DIRECTORY_SEPARATOR. 'route.php';
-//var_dump( DIRECTORY_SEPARATOR );
+//var_dump( DIRECTORY_SEPARATOR );push
