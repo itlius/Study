@@ -1,0 +1,2 @@
+1，连接的是ecshop的数据库 
+2，用的表：  ecs_brand   ,ecs_categroy   , ecs_goods 
