@@ -13,7 +13,7 @@ class db{
 	public function Query($sql){
 		return mysql_query($sql);
 	}
-	/*
+	/*p
 	获取一个查询数据的值   eg  select count(*) from week limit 1;
 	 */
 	public function GetOne($sql){
