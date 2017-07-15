@@ -1,20 +1,32 @@
-<!--引入CSS-->
-<link rel="stylesheet" type="text/css" href="webuploader文件夹/webuploader.css">
- 
-<!--引入JS-->
-<script type="text/javascript" src="webuploader文件夹/webuploader.js"></script>
-<!--引入CSS-->
 <link rel="stylesheet" type="text/css" href="./up/uploadify.css">
  
 <!--引入JS-->
+<script type="text/javascript" src="./up/jquery.min.js"></script>
 <script type="text/javascript" src="./up/jquery.uploadify.js"></script>
+<script type="text/javascript" src="./up/jquery.uploadify.min.js"></script>
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
 </head>
 <body>
-<input type="file" name="" src="./up/uploadify.php">
-
+	<form>
+		<div id="queue"></div>
+		<input id="file_upload" name="file_upload" type="file" >
+	</form>
 </body>
 </html>
+<script type="text/javascript">
+
+		/*$(document).ready(function(){
+			$("#file_upload").uploadify({
+				'uploader' : 'uploadify.swf',
+				'script' : 'UploadHandler.php',
+				'queueID' : 'fileQueue',
+				'folder' : 'UploadFile',
+				'auto' :ture,
+				'multi' :ture
+			});
+		});*/
+</script>
+</script>
