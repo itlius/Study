@@ -1,0 +1,72 @@
+<?php
+
+int a ; int length; int low ;
+foreach(a , low ,length -1){
+	if(a[i] = a)
+	{
+		return 1;
+	}
+	if(a[i] <low){
+	length/2 =length;
+	return(length)
+	}
+}
+二分查找方法
+$min = 0;
+$max = count($arr)-1;
+while( $min <$max ){
+	$middle = floor(( $min +$max) /2);
+
+	找到元素
+	if($arr[$middle] == $search){
+	echo'ok';retun;
+	}
+
+	如果存在中间元素 比目标小
+	if( $arr[$middle] < $search ){
+	$mi = $middle +1;
+	}
+	
+	如果中间元素比目标大、
+	if( $arr[middle] >$search ){
+	$min = $middle +1 ;
+
+	}
+	echo'no find';rutun;
+}
+
+//字符串反转
+$str="abcdfe0";
+$a="";
+for(lenth($str);$i>-1;$i--){
+	$str[$i].=$str;
+}
+
+//linux定时任务
+crontab 
+
+service crond start启动命令
+
+安装前（安装 vixie-cron crontabs）
+
+-e编辑文件 crontab -l列内容
+-r 删除文件
+
+
+*    *    *      *     *      * 
+
+minute 一小时的【0-59】分钟
+
+hour  小时 
+
+day of month 一月的一天
+
+month of year 一年的一月
+
+day of week 一种的一天
+
+commands 执行的命令
+
+
+
+
