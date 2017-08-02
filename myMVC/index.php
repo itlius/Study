@@ -13,7 +13,7 @@ ini_set('display_errors','off');
 define('ROOT_PATH', str_replace('\\', '/', __DIR__));
 
 //自定义框架目录
-define('FRAMEWORK_PATH', str_replace('\\', '/', __DIR__) .DIRECTORY_SEPARATOR.'F');
+define('FRAMEWORK_PATH', str_replace('\\', '/', __DIR__) .DIRECTORY_SEPARATOR.'Framework');
 //打印
 //var_dump( ROOT_PATH );
 include ROOT_PATH . DIRECTORY_SEPARATOR . 'Framework' . DIRECTORY_SEPARATOR .'core'. DIRECTORY_SEPARATOR. 'route.php';
