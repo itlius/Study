@@ -21,5 +21,15 @@ class HomeController extends Controller
     public function actionFind(){
         return $this->redire('find');
     }
+    //头像展示
+    public function actionInde(){
+        return $this->render('inde');
+    }
+    public function actionQuan(){
+        return $this->render('quan');
+    }
+    public function actionFan(){
+        return $this->render('fan');
+    }
 }
 

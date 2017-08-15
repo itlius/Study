@@ -55,17 +55,17 @@ service crond start启动命令
 
 *    *    *      *     *      * 
 
-minute 一小时的【0-59】分钟
+1  minute 一小时的【0-59】分钟
 
-hour  小时 
+2  hour  小时
 
-day of month 一月的一天
+3  day of month 一月的一天
 
-month of year 一年的一月
+4  month of year 一年的一月
 
-day of week 一种的一天
+5  day of week 一种的一天
 
-commands 执行的命令
+6  commands 执行的命令
 
 
 
