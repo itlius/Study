@@ -53,19 +53,17 @@ service crond start启动命令
 -r 删除文件
 
 
-*    *    *      *     *      * 
-
-1  minute 一小时的【0-59】分钟
-
-2  hour  小时
-
-3  day of month 一月的一天
-
-4  month of year 一年的一月
-
-5  day of week 一种的一天
-
-6  commands 执行的命令
+      可用crontab -e命令来编辑,编辑的是/var/spool/cron下对应用户的cron文件,也可以直接修改/etc/crontab文件
+     具体格式如下：
+      Minute Hour Day Month Dayofweek   command
+      分钟     小时   天     月       天每星期       命令
+     每个字段代表的含义如下：
+     Minute             每个小时的第几分钟执行该任务
+     Hour               每天的第几个小时执行该任务
+     Day                 每月的第几天执行该任务
+     Month             每年的第几个月执行该任务
+     DayOfWeek     每周的第几天执行该任务
+     Command       指定要执行的程序
 
 
 
